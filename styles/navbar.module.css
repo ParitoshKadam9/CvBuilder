@@ -1,0 +1,24 @@
+.container{
+    height: auto;
+    top: 0%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    color: #999;
+    padding: 15px;
+}
+.elements{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.image{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.elements:hover{
+    color: white;
+    cursor: pointer;
+}
